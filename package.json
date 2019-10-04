@@ -27,22 +27,22 @@
     "postinstall": "bower install"
   },
   "dependencies": {
-    "body-parser": "1.15.1",
+    "body-parser": "^1.19.0",
     "cookie-parser": "1.4.3",
     "errorhandler": "1.4.3",
-    "express": "4.13.4",
-    "express-session": "1.13.0",
-    "jade": "1.11.0",
-    "morgan": "1.7.0",
-    "nodemon": "1.9.2",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.3",
     "passport": "0.3.2",
-    "passport-saml": "0.15.0"
-  },
-  "devDependencies": {
-    "bower": "1.7.9"
+    "passport-saml": "0.15.0",
+    "pug": "^2.0.4"
   },
   "engines": {
     "node": ">= 4.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.8.8"
+  }
 }
